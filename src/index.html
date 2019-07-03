@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parallax</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+    }
+
+    .panel {
+      height: 100vh;
+      display: flex;
+      place-content: center;
+      place-items: center;
+      font-size: 10rem;
+      font-weight: 100;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, .6);
+      overflow: hidden;
+      flex-wrap: wrap;
+      position: relative;
+      /* background: none !important; */
+    }
+
+    h2 {
+      margin-right: 20px;
+      background: rgba(255, 255, 255, .5);
+      border-radius: 20px;
+      line-height: .6em;
+      padding: 40px;
+      font-size: 1em;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <section parallax class="panel" style="background:gold">
+    <h2>1</h2>
+    <div parallax-offset="600">
+      one
+    </div>
+  </section>
+  <section parallax class="panel" style="background:lightskyblue">
+    <h2>2</h2>
+    <div parallax-offset="600" parallax-out='0' parallax-in='100'>
+      two
+    </div>
+  </section>
+  <section parallax class="panel" style="background:lightcoral">
+    <h2>3</h2>
+    <div parallax-offset="600" parallax-out='0' parallax-in='100'>
+      three
+    </div>
+  </section>
+  <section parallax class="panel" style="background:lightgreen">
+    <h2>4</h2>
+    <div parallax-offset="600" parallax-out='0' parallax-in='100'>
+      four
+    </div>
+  </section>
+  <section parallax class="panel" style="background:violet">
+    <h2>5</h2>
+    <div parallax-offset="600" parallax-out='0' parallax-in='100'>
+      five
+    </div>
+  </section>
+</body>
+
+</html>
