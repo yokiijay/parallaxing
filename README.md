@@ -2,10 +2,8 @@
 
 A light weight library to handle scrolling parallax effect. 一个轻量级页面滚动视差效果的库
 
-## Preview 预览
+## Preview 预览 [Demo](https://yokiijay.github.io/parallaxing/dist/index.html)
 <img width="350" src="https://i.postimg.cc/C1T6C2dV/parallaxing-preview.gif"/>
-
-Demo: [https://yokiijay.github.io/parallaxing/dist/index.html](https://yokiijay.github.io/parallaxing/dist/index.html)
 
 
 This is how it looks like, you can set the parallax scrolling effect for any element with different offsets.
