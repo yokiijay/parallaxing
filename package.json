@@ -1,6 +1,6 @@
 {
   "name": "parallaxing",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A light weight library to handle scrolling parallax effect.",
   "main": "./dist/parallaxing.min.js",
   "author": "Yokiijay <yokiijay@gmail.com>",
