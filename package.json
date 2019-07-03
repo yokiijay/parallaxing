@@ -3,11 +3,23 @@
   "version": "1.0.0",
   "description": "A light weight library to handle scrolling parallax effect.",
   "main": "./dist/index.js",
-  "author": "Yokiijay <yokiijay@qq.com>",
+  "author": "Yokiijay <yokiijay@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "parallax",
+    "javascript",
+    "scroll",
+    "transform",
+    "effect",
+    "es6"
+  ],
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --open"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
