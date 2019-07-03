@@ -15,6 +15,7 @@ module.exports = {
     filename: '[name].js',
     library: 'parallaxing',
     libraryTarget: 'umd',
+    libraryExport: 'default'
   },
   optimization: {
     minimize: true,

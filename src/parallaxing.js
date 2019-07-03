@@ -1,4 +1,4 @@
-export default function parallaxing() {
+export default function () {
   const allParallaxParents = document.querySelectorAll('*[parallax]')
   let allParallax = []
 
