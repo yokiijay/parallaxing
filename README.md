@@ -42,21 +42,23 @@ Example HTML:
 
 HTML例子:
 ```html
-<div class='container'>
-  <img class='child' src='...' />
+<div >
+  <img src='...' />
 </div>
 ```
-Add some attributs to your `container` and `child` element like this:
+`parallax`: Add `parallax` attribute to parent node to enable parallax effect,
 
-给容器和子元素加点属性，像这样:
+`parallax-offset`: add `parallax-offset=500` attribute to child node to set `500` px distance of parallax ：
+
+给外层节点加属性 `parallax` 来启用视差效果，给子节点加属性 `parallax-offset=500` 来设置视差距离:
 ```html
-<div class='container' parallax>
-  <img class='child' src='...' parallax-offset='500' />
+<div parallax>
+  <img src='...' parallax-offset='500' />
 </div>
 ```
 then
 
-最后
+最后调用`parallaxing()`
 ```html
 <script>
   parallaxing()
