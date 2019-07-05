@@ -1,3 +1,4 @@
+![Parallaxing-logo](https://i.postimg.cc/h4yp8bsv/logo-2x.png)
 # Prallaxing
 
 A light weight library to handle scrolling parallax effect. 一个轻量级页面滚动视差效果的库
